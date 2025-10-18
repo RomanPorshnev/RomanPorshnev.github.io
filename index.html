@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Роман Поршнев | Резюме</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --text: #222;
+      --accent: #0070f3;
+      --card-bg: #fff;
+      --border: #e5e5e5;
+      --shadow: rgba(0, 0, 0, 0.05);
+    }
+    body {
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0 1em;
+      line-height: 1.6;
+      color: var(--text);
+      
+      /* 🌌 Фон */
+      background: radial-gradient(circle at 20% 30%, #e8f0ff, transparent 60%),
+                  radial-gradient(circle at 80% 70%, #fff0f6, transparent 60%),
+                  radial-gradient(circle at 50% 100%, #e8ffe8, transparent 60%),
+                  linear-gradient(135deg, #f5f8ff 0%, #e6f0ff 100%);
+      background-size: 200% 200%;
+      animation: gradientFlow 18s ease infinite;
+    }
+    @keyframes gradientFlow {
+      0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    main {
+      max-width: 850px;
+      margin: 2em auto;
+      background: var(--card-bg);
+      padding: 2em 3em;
+      border-radius: 16px;
+      box-shadow: 0 2px 8px var(--shadow);
+      border: 1px solid var(--border);
+    }
+    h1, h2, h3 {
+      color: var(--text);
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+    }
+    h2 {
+      margin-top: 1.5em;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.3em;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 0.6em;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .badges img {
+      margin: 3px;
+    }
+    .project {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1em 1.2em;
+      box-shadow: 0 2px 5px var(--shadow);
+      margin-bottom: 1.2em;
+      border: 1px solid var(--border);
+    }
+    .project h4 {
+      margin: 0 0 0.3em 0;
+    }
+    .emoji {
+      margin-right: 0.3em;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>👋 Привет, меня зовут Роман</h1>
+
+    <h2>🧑‍💻 О себе</h2>
+    <ul>
+      <li>🎓 Окончил бакалавриат <b>СПбГЭТУ «ЛЭТИ»</b> по направлению <i>Программная инженерия</i></li>
+      <li>📚 Обучаюсь в магистратуре <b>НИУ ВШЭ</b> по направлению <i>Прикладная математика и информатика</i>, программа — <i>Машинное обучение и анализ данных</i></li>
+      <li>🤖 Изучаю машинное обучение, анализ данных и математику</li>
+      <li>🚦 Работаю над системой планирования дорожного трафика с помощью обучения с подкреплением в симуляторе <b>SUMO</b></li>
+    </ul>
+
+    <h2>⚙️ Технологии</h2>
+    <div class="badges">
+      <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black">
+      <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
+      <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
+      <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white">
+      <img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white">
+      <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white">
+      <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white">
+      <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+      <img src="https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white">
+      <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
+      <img src="https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green">
+      <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">
+      <img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white">
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+      <img src="https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white">
+      <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
+      <img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white">
+    </div>
+
+    <h2>🚀 Проекты</h2>
+    <div class="project">
+      <h4>🚦 <a href="https://github.com/moevm/Car-Traffic-RL-Scheduler">Система планирования дорожного трафика с помощью обучения с подкреплением</a></h4>
+      <p>Задачи: реализовать алгоритм генерации трафика в SUMO на основе Пуассоновских потоков, обучить RL-агента оптимальному управлению светофорными объектами.<br>
+      🔧 <b>Traci</b>, <b>Stable-Baselines3</b>, <b>NumPy</b>, <b>TensorFlow</b>, <b>OpenAI Gym</b>.</p>
+    </div>
+
+    <div class="project">
+      <h4>🖼️ <a href="https://github.com/RomanPorshnev/image-processing">Обработка PNG-изображений на Си</a></h4>
+      <p>Задача: разработать CLI-приложение для рисования линий, инверсии цветов и обрезки изображений.<br>
+      🔧 <b>C</b>, <b>libpng</b>.</p>
+    </div>
+
+    <div class="project">
+      <h4>📊 <a href="https://github.com/RomanPorshnev/classic-ml-course">Курс по классическому машинному обучению</a></h4>
+      <p>Задачи: получить навыки предобработки, кластеризации, классификации и регрессия.<br>
+      🔧 <b>Pandas</b>, <b>NumPy</b>, <b>scikit-learn</b>, <b>Matplotlib</b>, <b>Seaborn</b>, <b>SciPy</b>.</p>
+    </div>
+
+    <div class="project">
+      <h4>🧬 <a href="https://github.com/RomanPorshnev/Summer_Practice">Задача о рюкзаке с помощью генетических алгоритмов</a></h4>
+      <p>Задачи: изучить и реализовать алгоритмы мутации, рекомбинации и селекции особей.<br>
+      🔧 <b>Qt</b>, <b>Python</b>.</p>
+    </div>
+
+    <div class="project">
+      <h4>🏢 <a href="https://github.com/RomanPorshnev/nosql2h24-rename">Сервис переименованных топонимов СПБ</a></h4>
+      <p>Задачи: реализовать фильтрацию и поиск исторических топонимов, а также импорт/экспорт данных в JSON.<br>
+      🔧 <b>Angular</b>, <b>Flask</b>, <b>Neo4j</b>, <b>Nginx</b>, <b>Docker</b>.</p>
+    </div>
+
+    <h2>📚 Научные статьи</h2>
+    <ul>
+      <li>
+        🧪 <a href="https://nnb.etu.ru/assets/files/rezultaty/shkolniki/nnb-h_2022_tom-2.pdf">
+          Виртуализация лабораторной установки по исследование термодинамическим циклам
+        </a><br>
+        🔧 <b>JavaScript</b>
+      </li>
+
+      
+      <li>
+        ⚙️ <a href="https://elibrary.ru/download/elibrary_49376080_50875680.pdf">
+          Виртуализация лабораторной работы по проверке теоремы Гюйгенса – Штейнера методом вращательных колебаний
+        </a><br>
+        🔧 <b>JavaScript</b>
+      </li>
+    </ul>
+
+
+    <h2>📫 Контакты</h2>
+    <p>📧 <a href="mailto:porsh0509@gmail.com">porsh0509@gmail.com</a></p>
+
+  </main>
+</body>
+</html>
